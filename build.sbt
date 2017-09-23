@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "Ernesto Mancebo <ernesmancebo@gmail.com>"
+packageSummary := "Custom Package"
+packageDescription := "Package"
